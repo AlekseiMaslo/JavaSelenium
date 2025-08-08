@@ -15,7 +15,7 @@ public class MainTest {
     WebDriver driver;
 
     @Test
-    public void testSum() throws InterruptedException {
+    public void testSelenium() throws InterruptedException {
 
         driver = new ChromeDriver();
 
