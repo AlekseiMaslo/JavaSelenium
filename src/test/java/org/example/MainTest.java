@@ -15,7 +15,7 @@ public class MainTest {
     WebDriver driver;
 
     @Test
-    public void testSum() throws InterruptedException {
+    public void testExample() {
 
         driver = new ChromeDriver();
 
@@ -31,7 +31,6 @@ public class MainTest {
         textBox.sendKeys("Selenium");
         submitButton.click();
 
-        Thread.sleep(1000);
 
         WebElement message = driver.findElement(By.id("message"));
         String value = message.getText();
