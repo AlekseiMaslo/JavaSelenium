@@ -35,8 +35,8 @@ build/
 ### VS Code ###
 .vscode/
 
-### project ###
-.properties
-
 ### Mac OS ###
 .DS_Store
+
+### project ###
+.properties
